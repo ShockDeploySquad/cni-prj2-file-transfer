@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="238.0" prefWidth="304.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="16.0" layoutY="129.0" text="文件路径：" />
+      <TextField id="FilePathInput" layoutX="95.0" layoutY="124.0" prefHeight="30.0" prefWidth="161.0" />
+      <ProgressBar id="FileUploadProgressBar" layoutX="16.0" layoutY="206.0" prefHeight="23.0" prefWidth="275.0" progress="0.0" />
+      <Button id="UploadBtn" layoutX="16.0" layoutY="163.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="275.0" text="上传" />
+      <Label layoutX="16.0" layoutY="18.0" text="服务器IP:" />
+      <Label layoutX="16.0" layoutY="60.0" text="服务器端口：" />
+      <TextField id="ServerIPInput" layoutX="109.0" layoutY="13.0" prefHeight="30.0" prefWidth="182.0" text="129.204.152.91" />
+      <TextField id="ServerPortInput" layoutX="109.0" layoutY="55.0" prefHeight="30.0" prefWidth="182.0" text="9527" />
+      <Button id="SelectFilePathBtn" layoutX="260.0" layoutY="124.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="24.0" text="..." />
+   </children>
+</AnchorPane>
